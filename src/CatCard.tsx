@@ -1,6 +1,4 @@
-import * as React from "react";
-
-import { ChangeEvent, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useCatFact } from "./UseCatFact";
 
 import {
@@ -16,9 +14,6 @@ import {
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "./components/ui/button";
